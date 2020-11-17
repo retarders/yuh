@@ -14,7 +14,6 @@ public class YuhCLIApplication {
                 .withCommands(HelpCommand.class, NewCommand.class, GenerateCommand.class);
 
         Cli<Runnable> parser = builder.build();
-        parser.getMetadata().getCommandGroups().forEach(o->o.getCommands().forEach(i-> System.out.println(i.getName())));
         parser.parse(args).run();
     }
 

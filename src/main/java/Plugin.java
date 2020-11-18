@@ -2,7 +2,7 @@ package {{ project.groupId }}.{{ project.artifactId }}
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class Plugin extends JavaPlugin {
+public class {{ project.artifactId }}Plugin extends JavaPlugin {
 
     @Override
     public void onLoad() { }

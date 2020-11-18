@@ -1,2 +1,2 @@
-# yuh
-the spigot plugin development framework :fire:
+# maven
+the maven template
